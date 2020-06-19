@@ -31,7 +31,7 @@ def jsonvalue(str,key):
             print item[key]
     if isinstance(s,dict):
         result.append(json.dumps(s[key], encoding="UTF-8", ensure_ascii=False))
-        print json.dumps(s[key], encoding="UTF-8", ensure_ascii=False)
+        #print json.dumps(s[key], encoding="UTF-8", ensure_ascii=False)
     return result
 def readfile(filepath):
     f = open(filepath,'r')
